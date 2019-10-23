@@ -6,6 +6,7 @@ from unsga3.non_dominated_sort import non_dominated_sort as non_dominated_sort
 from unsga3.unsga3 import ParetoFitness as ParetoFitness
 from unsga3.unsga3 import Candidate as Candidate
 import numpy
+from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
